@@ -4,14 +4,6 @@ body {
     margin: 0;
 }
 
-#container {
-    width: 1600px;
-    height: 2000px;
-    background: #3D3D3D;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {
     color: white;
     font-size: 36px;
@@ -50,3 +42,11 @@ a:hover {
 a:active {
     color: #ff9900;
 } 
+
+#content {
+    width: 1600px;
+    height: 2000px;
+    background: #3D3D3D;
+    margin-left: auto;
+    margin-right: auto;
+}
