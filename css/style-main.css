@@ -101,13 +101,15 @@ nav #burger div {
 }
 
 .toggle #line1 {
-    transform: rotate(-45deg) translate(-5px, 7px);
+    transform: rotate(-45deg) translate(-6px, 7px);
 }
+
 .toggle #line2 {
     opacity: 0;
 }
+
 .toggle #line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+    transform: rotate(45deg) translate(-6px, -7px);
 }
 
 article {
