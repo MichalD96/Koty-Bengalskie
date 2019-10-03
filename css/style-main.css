@@ -26,7 +26,7 @@ nav {
     font-weight: bold;
 }
 
-.logo {
+#logo {
     color: #ffc72c;
     text-transform: uppercase;
     font-size: 20px;
@@ -58,12 +58,12 @@ nav {
     opacity: 1;
 }
 
-.burger {
+#burger {
     display: none;
     cursor: pointer;
 }
 
-.burger div {
+#burger div {
     background-color: #ffffff;
     width: 28px;
     height: 3px;
@@ -82,23 +82,22 @@ nav {
         position: absolute;
         right: 0px;
         height: 75vh;
-        top: 7vh;
+        top: 65px;
         background-color: #5c5c5c;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
-        transform: translateX(100%);
-
+        width: 50%;
+        transform: translate(100%, -100%);
         /* problematyczny transform - powoduje rozwijanie sie menu przy zmniejszaniu okna*/
-        transition: transform 250ms cubic-bezier(.1, .64, .35, .96);
+        transition: transform 300ms cubic-bezier(.1, .64, .35, .96);
     }
 
     .nav-links li {
         opacity: 0;
     }
 
-    .burger {
+    #burger {
         display: block;
     }
 }
@@ -119,15 +118,15 @@ nav {
     }
 }
 
-.toggle .line1 {
+.toggleClass #line1 {
     transform: rotate(-45deg) translate(-6px, 7px);
 }
 
-.toggle .line2 {
+.toggleClass #line2 {
     opacity: 0;
 }
 
-.toggle .line3 {
+.toggleClass #line3 {
     transform: rotate(45deg) translate(-6px, -7px);
 }
 
