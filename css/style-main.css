@@ -72,7 +72,7 @@ nav {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1024px) {
 
     body {
         overflow-x: hidden;
@@ -88,9 +88,9 @@ nav {
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translate(100%, -100%);
+        transform: translate(100%, 0%);
         /* problematyczny transform - powoduje rozwijanie sie menu przy zmniejszaniu okna*/
-        transition: transform 300ms cubic-bezier(.1, .64, .35, .96);
+        /*transition: transform 200ms cubic-bezier(.1, .64, .35, .96);*/
     }
 
     .nav-links li {
